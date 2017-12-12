@@ -11,7 +11,7 @@ const Article = require("./models/Article");
 
 // create Express instance
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 
 // run Morgan for logging
 app.use(logger("dev"));
@@ -23,7 +23,7 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 app.use(express.static("./public"));
 
 // mongoDB connect ACTION 
-mongoose.connect("mongodb://heroku_41njf0v6:ho7mjcv4ejq4etq0nsce6qcbka@ds135532.mlab.com:35532/heroku_41njf0v6");
+mongoose.connect("");
 var db = mongoose.connection;
 
 db.on("error", function(err) {
