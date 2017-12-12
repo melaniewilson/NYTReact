@@ -1,4 +1,4 @@
-// main React dependencies
+// main react dependencies
 import React from "react";
 import ReactDOM from "react-dom";
 
