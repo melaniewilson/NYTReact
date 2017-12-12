@@ -95,8 +95,8 @@ class Main extends React.Component {
     return (
       <div className="container">
         <div className="jumbotron">
-          <h1>New York Times Article Scrubber</h1>
-          <p>Search for and annotate articles of interest!</p>
+          <h1>New York Times </h1>
+          <p>Search for items of interest</p>
         </div>
         <div className="row">
           <Search setTerm={this.setTerm} setArticleToSave={this.setArticleToSave} saved={this.state.saved} results={this.state.results} resultToSave={this.state.resultToSave} />

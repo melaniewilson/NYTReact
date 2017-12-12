@@ -8,7 +8,7 @@ class Saved extends React.Component {
 			<div className="col-md-12">
           		<div className="row">
           			<div className="col-sm-12">
-          				<div className="panel panel-primary">
+          				<div className="panel panel-default">
           					<div className="panel-heading">
           						<h3 className="panel-title">Saved Articles</h3>
         					</div>
