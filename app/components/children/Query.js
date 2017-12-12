@@ -25,7 +25,7 @@ class Query extends React.Component {
     return (
       <div className="panel panel-default">
         <div className="panel-heading">
-          <h3 className="panel-title">Search</h3>
+          <h3 className="panel-title">Search5</h3>
         </div>
         <div className="panel-body">
           <form onSubmit={this.handleSubmit}>
